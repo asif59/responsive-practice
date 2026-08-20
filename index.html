@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+        .noto {
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+            }
+
+        .inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            }
+    </style>
+</head>
+<body>
+    <header class="pt-4">
+        <nav class="max-w-xs mx-auto  sm:max-w-6xl mx-auto  flex justify-between items-center">
+            <img src="images/logo.png" alt="" class="w-20 h-full  sm:w-35 sm:h-full">
+            <div class="">
+                <ul class="flex gap-5 font-semibold text-gray-400 text-sm  sm:gap-10 sm:text-base">
+                    <li class="active:text-black hidden  sm:block"><a href="">Home</a></li>
+                    <li class="hidden  sm:block"><a href="">Shop</a></li>
+                    <li class="hidden  sm:block"><a href="">About us</a></li>
+                    <li>
+                        <ul class="flex items-center gap-2">
+                            <li><a href=""><img src="images/shopping-cart.png" alt="" class="w-6 h-6"></a></li>
+                            <li><a href="">Cart ($56)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="flex flex-col-reverse  sm:flex-row  sm:max-w-6xl mx-auto  justify-between items-end mt-10 sm:mt-30">
+            <div class="noto max-w-xs sm:max-w-6xl mx-auto">
+                <h1 class="font-bold text-3xl  sm:text-6xl sm:mt-10  mt-7">ALWAYS <span  class="text-orange-600">FRESH FLOWERS</span></h1>
+                <p class="inter text-xs  sm:text-xl  text-gray-500 mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+            </div>
+            <img src="images/hero-flower.png" alt="">
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
